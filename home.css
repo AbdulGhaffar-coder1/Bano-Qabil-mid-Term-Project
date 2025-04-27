@@ -25,3 +25,77 @@
         transform: scale(1.12);
     }
 }
+
+.Textlogo {
+    width: 30px;
+    height: 40px;
+    display: inline;
+    margin-left: 20px;
+}
+
+.S-services {
+    margin-top: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoT {
+    width: 100vw;
+    display: flex;
+}
+
+.head4 {
+    color: rgb(26, 240, 108);
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.head2 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    width: 30%;
+    background-color: rgb(209, 76, 209);
+    color: white;
+    padding: 10px;
+}
+
+#icon {
+    display: inline-block;
+    /* or block */
+    font-size: 40px;
+    text-align: center;
+    /* optional, to center the icon inside */
+    color: white;
+    margin-left: 43%;
+}
+
+.head {
+    font-size: 20px;
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+}
+
+.woman {
+    background-color: orange;
+}
+
+.iframes {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+iframe {
+    width: 350px;
+}
