@@ -1,0 +1,146 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logo {
+        width: 120px;
+        height: 100px;
+    }
+    
+    header {
+        display: flex;
+        background-color: white;
+        color: black;
+        justify-content: space-between;
+    }
+    
+    .list {
+        display: flex;
+        justify-content: space-between;
+        width: 60vw;
+        margin-top: 35px;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .list li a {
+        text-decoration: none !important;
+        color: black !important;
+        font-size: 18px !important;
+        padding-bottom: 40px !important;
+    }
+    
+    .list a:hover {
+        color: green !important;
+    }
+    
+    .donate {
+        width: 90px;
+        height: 45px;
+        margin-right: 30px;
+        margin-top: 30px;
+        background-color: rgb(18, 160, 160);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    .drop {
+        font-size: 15px;
+        margin-top: -10px;
+        font-weight: bolder;
+    }
+    
+    #About-drop,
+    #Programs-drop,
+    #Gallery-drop {
+        width: 230px;
+        background-color: rgb(18, 160, 160);
+        padding: 20px;
+        color: white;
+        border-radius: 7px;
+        margin-left: 300px;
+        margin-top: 0px;
+        line-height: 27px;
+        border: 2px solid white;
+        z-index: 100;
+        position: relative;
+    }
+    
+    #About-drop {
+        display: none;
+    }
+    
+    #About-drop li a {
+        color: white !important;
+        text-decoration: none !important;
+        width: 100%;
+        height: 15px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    #About-drop li:hover {
+        background-color: teal;
+    }
+    
+    #About-drop li {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+    }
+    
+    #About-drop li a .drop {
+        margin-left: 45%;
+    }
+    
+    #Programs-drop {
+        color: white;
+        margin-left: 420px;
+        display: none;
+    }
+    
+    #Programs-drop li a {
+        color: white !important;
+        text-decoration: none !important;
+        width: 100%;
+        height: 15px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    #Programs-drop li {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+    }
+    
+    #Programs-drop li:hover {
+        background-color: teal;
+    }
+    
+    #Gallery-drop {
+        margin-left: 750px;
+        display: none;
+    }
+    
+    #Gallery-drop li a {
+        color: white !important;
+        text-decoration: none !important;
+        width: 100%;
+        height: 15px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    #Gallery-drop li {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+    }
+    
+    #Gallery-drop li:hover {
+        background-color: teal;
+    }
