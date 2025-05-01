@@ -148,8 +148,8 @@ h1 {
 }
 
 .meet {
-    width: 300px;
-    margin-left: 220px;
+    width: 400px;
+    margin-left: 120px;
     margin-top: 10px;
 }
 
@@ -213,4 +213,80 @@ h1 {
 
 .new {
     display: flex;
+}
+
+.about-btn {
+    width: 160px;
+    height: 50px;
+    background-color: rgb(18, 160, 160);
+    color: white;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.course-btn {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(18, 160, 160);
+    color: white;
+    margin-top: 8px;
+    border-radius: 8px;
+    margin-left: 50px;
+    border: none;
+}
+
+.carousel-wrapper {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#categoryCarousel {
+    transition: transform 0.5s ease;
+}
+
+.transition {
+    transition: transform 0.5s ease-in-out;
+}
+
+.Allcourses {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.course {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.course-btn {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(18, 160, 160);
+    color: rgb(236, 131, 131);
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    
+}
+
+.cricle {
+    width: 90px;
+    height: 50px;
+    border-radius: 50%;
+    height: 100px;
+    border-radius: 50%;
+    background-color: grey;
+    margin-top: 5px;
+}
+
+.cricle:hover {
+    background-color: green;
 }
