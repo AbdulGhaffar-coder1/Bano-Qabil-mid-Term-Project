@@ -1,5 +1,6 @@
  let About = document.getElementById("About");
  let hero = document.querySelector(".hero");
+
  Aboutdrop = document.getElementById("About-drop");
  About.addEventListener("mouseover", function() {
      Aboutdrop.style.display = "block";
@@ -77,5 +78,7 @@
 
      Gallerydrop.style.display = "none";
      hero.style.marginTop = "0px";
+
+
 
  })

@@ -17,7 +17,7 @@
     
     .list {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 60vw;
         margin-top: 35px;
     }
@@ -56,7 +56,7 @@
     #About-drop,
     #Programs-drop,
     #Gallery-drop {
-        width: 230px;
+        width: 200px;
         background-color: rgb(18, 160, 160);
         padding: 20px;
         color: white;
