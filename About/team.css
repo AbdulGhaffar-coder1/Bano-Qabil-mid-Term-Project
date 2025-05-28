@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.team-section {
+    background-color: #003840;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.team-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team-member {
+    background-color: #01798f;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid white;
+}
+
+.team-member h3 {
+    margin: 15px 0 5px;
+    font-size: 18px;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #f0f0f0;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    border-top: 1px solid #444;
+  }
+  
+  .footer-column {
+    flex: 1 1 250px;
+    margin: 20px;
+  }
+  
+  .footer img {
+    max-width: 180px;
+    margin-bottom: 15px;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer h3 {
+    font-size: 18px;
+    border-bottom: 2px solid #00c7a0;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  .partners img {
+    width: 130px;
+    height: auto;
+    margin: 10px 10px 0 0;
+    background: white;
+    padding: 5px;
+  }
+  
+  .contact-item {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-item span {
+    margin-left: 10px;
+  }
+  
+  .social-icons img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .job-link {
+    margin-top: 10px;
+    display: inline-block;
+    background: #00c7a0;
+    padding: 6px 12px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .job-link:hover {
+    background: white;
+  }

@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.icon-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    /* Aap apni pasand ka color de sakte hain */
+    width: 60px;
+    /* Aap apni pasand ki width de sakte hain */
+    position: fixed;
+    /* Agar aap ise hamesha screen par dikhana chahte hain */
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 20px;
+    /* Icons ke upar spacing */
+}
+
+.icon-bar a {
+    text-align: center;
+    padding: 16px;
+    transition: background-color 0.3s ease;
+    color: black;
+    /* Icons ka color */
+    font-size: 20px;
+    /* Icons ka size */
+}
+
+.icon-bar a:hover {
+    background-color: #ddd;
+    /* Hover par background color */
+}
+
+.content {
+    margin-left: 60px;
+    /* Icon bar ki width ke barabar margin */
+    padding: 20px;
+}

@@ -20,6 +20,11 @@
     <!-- Navigation (optional) -->
     <header>
         <img src="./Images/logo.png" alt="Logo" class="logo">
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <ul class="list">
             <li>
                 <a href="index.html">Home</a>
@@ -47,25 +52,32 @@
                 <a href="#">FAQs</a>
             </li>
         </ul>
+
+
         <button class="donate">Donate</button>
+
+
+
+
     </header>
     <!-- Drops downs of the Navbar -->
 
     <ul id="About-drop">
         <li>
-            <a href="#">Introdunction</a>
+            <a href="./About/introduction.html">Introduction</a>
         </li>
         <li>
-            <a href="#">Director message</a>
+            <a href="./About/director.html">Director message</a>
         </li>
         <li>
-            <a href="#">Management Team</a>
+            <a href="./About/team.html">Management Team</a>
         </li>
         <li id="Faculty">
-            <a href="#">Faculty <span class="drop"> > </span></a>
+            <a href="./About/faculty.html">Faculty </a>
         </li>
 
     </ul>
+
     <ul id="Programs-drop">
         <li>
             <a href="#">Bano Qabil 2.0 <span class="drop"> ></span></a>
@@ -89,8 +101,83 @@
         <li>
             <a href="#">Images</a>
         </li>
+        <button id="menuToggle" class="hamburger">☰</button>
+
 
     </ul>
+
+
+    <header class="mobile">
+
+
+        <ul class="mobile-list">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li id="mobile-About">
+                <a href="#">About Us  <span class="drop">+</span> </a>
+                <ul id="About-mobile">
+                    <li>
+                        <a href="#">Introduction</a>
+                    </li>
+                    <li>
+                        <a href="#">Director message</a>
+                    </li>
+                    <li>
+                        <a href="#">Management Team</a>
+                    </li>
+                    <li id="Faculty">
+                        <a href="#">Faculty <span class="drop"> + </span></a>
+                    </li>
+                </ul>
+            </li>
+            <li id="Programs">
+                <a href="#">Programs <span class="drop">+</span></a>
+                <ul id="Programs-mobile">
+                    <li>
+                        <a href="#">Bano Qabil 2.0 <span class="drop"> ></span></a>
+                    </li>
+                    <li>
+                        <a href="#">Bano Qabil 3.0/3.1 <span class="drop"> ></span></a>
+                    </li>
+                    <li>
+                        <a href="#">Bootcamp <span class="drop"> ></span></a>
+                    </li>
+                    <li>
+                        <a href="#">Bano Qabil 4.0 <span class="drop"> ></span></a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="./Courses/courses.html">Courses</a>
+            </li>
+            <li>
+                <a href="./Campuses/campuses.html">Campuses</a>
+            </li>
+            <li id="Gallery">
+                <a href="#">Gallery <span class="drop">+</span></a>
+                <ul id="Gallery-mobile">
+                    <li>
+                        <a href="#">Videos</a>
+                    </li>
+                    <li>
+                        <a href="#">Images</a>
+                    </li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+
+            <li>
+                <a href="#">FAQs</a>
+            </li>
+        </ul>
+
+    </header>
+
+
 
     <!-- End of the Drop downs of the navbar -->
 
@@ -609,7 +696,8 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-<script src="header.JS"></script>
+<script src="header.JS">
+</script>
 <script src="home.JS"></script>
 
 

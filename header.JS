@@ -82,3 +82,28 @@
 
 
  })
+
+ // Mobile code
+
+ document.addEventListener("DOMContentLoaded", function() {
+     const toggleItems = document.querySelectorAll(".mobile-list > li");
+
+     toggleItems.forEach((li) => {
+         const subMenu = li.querySelector("ul");
+
+         if (subMenu) {
+             // This li has a submenu
+             li.addEventListener("click", function(e) {
+                 e.stopPropagation();
+                 e.preventDefault();
+
+                 // Toggle the submenu
+                 if (subMenu.style.display === "block") {
+                     subMenu.style.display = "none";
+                 } else {
+                     subMenu.style.display = "block";
+                 }
+             });
+         }
+     });
+ });
